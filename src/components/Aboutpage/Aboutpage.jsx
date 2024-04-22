@@ -3,10 +3,9 @@ import "./Aboutpage.css";
 import profile_img from "/imageFolder/profile_img.svg";
 const Aboutpage = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img src={profile_img} alt="" />
       <h1>
-        {" "}
         <span>I'm Alex Bennett</span> , frontend developer based in usa
       </h1>
       <p>
