@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import logo from "/imageFolder/logo.svg";
 import underline from "/imageFolder/nav_underline.svg";
-
+import menu_open from "/imageFolder/menu_open.svg";
+import menu_close from "/imageFolder/menu_close.svg";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
-
+  const menuRef = useRef();
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
   const scrollTo = (y, menuName) => {
     window.scrollTo({
       top: y,
@@ -17,7 +24,14 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      <ul className="nav-menu">
+      <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          alt=""
+          className="nav-mob-close"
+        />
         <li>
           <p onClick={() => scrollTo(200, "home")}>Home</p>
           {menu === "home" ? <img src={underline} alt="" /> : <></>}
