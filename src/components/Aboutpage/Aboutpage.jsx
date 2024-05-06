@@ -1,20 +1,29 @@
 import React from "react";
 import "./Aboutpage.css";
 import profile_img from "/imageFolder/profile_img.svg";
+import Typewriter from "typewriter-effect";
+
 const Aboutpage = () => {
   return (
     <div id="home" className="hero">
       <img src={profile_img} alt="" />
-      <h1>
-        <span>I'm Alex Bennett</span> , frontend developer based in usa
-      </h1>
-      <p>
-        I, am a frontend developer from california, usa with 10 years of
-        expreince in multiple companies like Microssoft, Tesla and Apple
-      </p>
+      <h1>I'm Olawunmi Olatunji based in Nigeria</h1>
+      <div className="about-text">
+        I'm a
+        <Typewriter
+          options={{
+            strings: ["Frontend Developer", "web Developer", "Freelancer"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        with 2 years of experience in multiple companies like Bulb Africa,
+        Eschools
+      </div>
+
       <div className="hero-action">
-        <div className="hero-connect">connect with me</div>
-        <div className="hero-resume">my resume</div>
+        <div className="hero-connect">Connect with me</div>
+        <div className="hero-resume">My resume</div>
       </div>
     </div>
   );

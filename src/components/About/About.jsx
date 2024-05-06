@@ -1,6 +1,6 @@
 import "./About.css";
-import theme_pattern from "../../../public/imageFolder/theme_pattern.svg";
-import profile_img from "../../../public/imageFolder/profile_img.svg";
+import theme_pattern from "/imageFolder/theme_pattern.svg";
+import profile_img from "/imageFolder/profile_img.svg";
 
 const About = () => {
   return (
@@ -30,28 +30,28 @@ const About = () => {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: "50%" }} />
+              <p>HTML & CSS</p> <hr style={{ width: "100%" }} />
             </div>
             <div className="about-skill">
               <p>JavaScript</p> <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>React Js</p> <hr style={{ width: "60%" }} />
+              <p>React Js</p> <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>Next Js</p> <hr style={{ width: "50%" }} />
+              <p>Redux Toolkit</p> <hr style={{ width: "70%" }} />
             </div>
           </div>
         </div>
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>10+</h1>
+          <h1>2+</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>90+</h1>
+          <h1>5+</h1>
           <p>PROJECT COMPLETED</p>
         </div>
         <hr />

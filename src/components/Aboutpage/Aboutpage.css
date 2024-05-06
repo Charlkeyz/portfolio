@@ -2,7 +2,27 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   gap: 35px;
+}
+.about-text {
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.ityped-cursor {
+  opacity: 1;
+
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .hero img {
   margin-top: 100px;
@@ -52,7 +72,19 @@
 .hero-resume:hover {
   border-color: #b415ff;
 }
-@media (max-width: 768px) {
+@media (max-width: 760px) {
+  .hero {
+    justify-content: center;
+    gap: 30px;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
   .hero img {
     margin-top: 100px;
     width: 200px;

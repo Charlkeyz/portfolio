@@ -4,9 +4,8 @@
   /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
-  /* gap: 80px; */
-  /* margin: 80px 170px; */
+  gap: 80px;
+  margin: 80px 170px;
   /* background-color: orangered; */
 }
 .contact-title {
@@ -14,7 +13,7 @@
 }
 .contact-title h1 {
   padding: 30px;
-  font-size: 30px;
+  font-size: 80px;
   font-weight: "600";
 }
 .contact-title img {
@@ -29,8 +28,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  gap: 50px;
+  gap: 150px;
 }
 .contact-left {
   display: flex;

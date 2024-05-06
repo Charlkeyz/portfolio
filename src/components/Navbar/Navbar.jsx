@@ -23,7 +23,10 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <div className="myname">
+        <h1>Olawunmi</h1>
+      </div>
+      {/* <img src={logo} alt="" /> */}
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
         <img
@@ -37,15 +40,12 @@ const Navbar = () => {
           {menu === "home" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => scrollTo(950, "about")}>About me</p>
+          <p onClick={() => scrollTo(900, "about")}>About me</p>
           {menu === "about" ? <img src={underline} alt="" /> : <></>}
         </li>
+
         <li>
-          <p onClick={() => scrollTo(1920, "services")}>Services</p>
-          {menu === "services" ? <img src={underline} alt="" /> : <></>}
-        </li>
-        <li>
-          <p onClick={() => scrollTo(3000, "work")}>Portfolio</p>
+          <p onClick={() => scrollTo(1800, "work")}>Portfolio</p>
           {menu === "work" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>

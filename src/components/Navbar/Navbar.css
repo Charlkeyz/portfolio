@@ -11,6 +11,12 @@
   gap: 60px;
   font-size: 14px;
 }
+.myname h1 {
+  background: linear-gradient(267deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
@@ -41,7 +47,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .navbar {
     margin: 20px 50px;
     /* background-color: red; */

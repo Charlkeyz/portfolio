@@ -1,0 +1,14 @@
+.containerStyles {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .containerStyles {
+    width: 400px;
+    height: 280px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
