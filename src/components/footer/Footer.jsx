@@ -51,11 +51,11 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
-          &#169; 2024 Beejay Ola. All rights and reserved.
+          &#169; 2024 Charles Keyz. All rights and reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>08065592378</p>
-          <p>Email address</p>
+          <p>07060547889</p>
+          <p>charleskeyz2017@gmail.com</p>
           <p>github Address</p>
         </div>
       </div>
