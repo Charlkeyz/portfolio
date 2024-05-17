@@ -1,7 +1,7 @@
 import "./About.css";
 import theme_pattern from "/imageFolder/theme_pattern.svg";
-import profile_img from "/imageFolder/profile_img.svg";
-
+import profile_img from "/imageFolder/profile.jpg";
+import Typewriter from "typewriter-effect";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -11,20 +11,30 @@ const About = () => {
       </div>
       <div className="about-section">
         <div className="about-left">
-          <img src={profile_img} alt="" />
+          <img src={profile_img} alt="" style={{ borderRadius: "50%" }} />
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>
+            <Typewriter
+              options={{
+                strings: [
+                  " I am an experienced Frontend Developer with over a decode of professional expertise in the field. Throughout my career, I have  the priviledge of collaberating with prestigious organisations, contirbuting to their success and growth.  ",
+                ],
+
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            {/* <p>
               I am an experienced Frontend Developer with over a decode of
-              professionalexpertise in the field. Throughout my career, I have
+              professional expertise in the field. Throughout my career, I have
               the priviledge of collaberating with prestigious organisations,
               contirbuting to their success and growth.
-            </p>
+            </p> */}
 
             <p>
               My passion for frontend development is not only reflected in my
-              extensive experience but also in the enthusiam and dedicatio I
+              extensive experience but also in the enthusiam and dedication I
               bring to each project{" "}
             </p>
           </div>
@@ -33,13 +43,13 @@ const About = () => {
               <p>HTML & CSS</p> <hr style={{ width: "100%" }} />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "70%" }} />
+              <p>JavaScript</p> <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>React Js</p> <hr style={{ width: "70%" }} />
+              <p>React Js</p> <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>Redux Toolkit</p> <hr style={{ width: "70%" }} />
+              <p>Redux Toolkit</p> <hr style={{ width: "50%" }} />
             </div>
           </div>
         </div>
@@ -51,7 +61,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>5+</h1>
+          <h1>7+</h1>
           <p>PROJECT COMPLETED</p>
         </div>
         <hr />

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/footer/Footer";
 import mywork_data from "../public/imageFolder/mywork_data";
+// import Link from "react-router-dom";
 function App() {
   return (
     <>
@@ -19,6 +20,8 @@ function App() {
               return {
                 url: image.w_img,
                 index: index,
+                linkto: image.linkto,
+                names: image.w_name,
               };
             })}
           />

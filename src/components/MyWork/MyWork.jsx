@@ -10,8 +10,10 @@ const MyWork = ({ slides }) => {
     width: "100%",
     height: "100%",
     borderRadius: "10px",
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    cursor: "pointer",
   };
 
   const rightArrowStyles = {
@@ -20,7 +22,7 @@ const MyWork = ({ slides }) => {
     transform: "translate(0, -50%)",
     right: "32px",
     fontSize: "45px",
-    color: "#fff",
+    color: "#df8908",
     zIndex: 1,
     cursor: "pointer",
   };
@@ -31,7 +33,7 @@ const MyWork = ({ slides }) => {
     transform: "translate(0, -50%)",
     left: "32px",
     fontSize: "45px",
-    color: "#fff",
+    color: "#df8908",
     zIndex: 1,
     cursor: "pointer",
   };
@@ -91,7 +93,14 @@ const MyWork = ({ slides }) => {
             <IoIosArrowForward />
           </div>
         </div>
-        <div style={slideStylesWidthBackground}></div>
+        <a
+          href={slides[currentIndex].linkto}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div style={slideStylesWidthBackground}></div>
+        </a>
+        <h1 className="names">{slides[currentIndex].names}</h1>
         <div style={dotsContainerStyles}>
           {slides.map((slide, slideIndex) => (
             <div
@@ -100,7 +109,8 @@ const MyWork = ({ slides }) => {
               onClick={() => goToSlide(slideIndex)}
               style={{
                 ...dotStyle,
-                backgroundColor: currentIndex === slideIndex ? "red" : "green",
+                backgroundColor:
+                  currentIndex === slideIndex ? "white" : " #df8908",
               }}
             ></div>
           ))}
