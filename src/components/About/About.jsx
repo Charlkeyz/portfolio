@@ -1,6 +1,6 @@
 import "./About.css";
 import theme_pattern from "/imageFolder/theme_pattern.svg";
-import profile_img from "/imageFolder/profile.jpg";
+import profile_img from "/imageFolder/profilepixel.jpeg";
 import Typewriter from "typewriter-effect";
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className="about-section">
         <div className="about-left">
-          <img src={profile_img} alt="" style={{ borderRadius: "50%" }} />
+          <img src={profile_img} alt="" style={{ borderRadius: "50%",}} />
         </div>
         <div className="about-right">
           <div className="about-para">

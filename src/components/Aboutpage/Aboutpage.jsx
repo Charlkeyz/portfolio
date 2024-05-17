@@ -1,13 +1,14 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+// import React from "react";
 import "./Aboutpage.css";
-import profile_img from "/imageFolder/profile.jpg";
+import profile_img from "/imageFolder/profilepixel.jpeg";
 import Typewriter from "typewriter-effect";
 
 const Aboutpage = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="" style={{ borderRadius: "50%" }} />
-      <h1>I'm Emmanuel Chukwuma based in Nigeria</h1>
+      <img src={profile_img} alt="" style={{ borderRadius: "50%", width: "15%" }} />
+      <h1>I'm Ugochukwu Charles based in Nigeria</h1>
       <div className="about-text">
         I'm a
         <Typewriter
