@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <div className="myname">
-            <h1>Olawunmi</h1>
+            <h1>Charles</h1>
           </div>
           <p>
             I am a frontend developer from Nigeria with 2 years of experience
