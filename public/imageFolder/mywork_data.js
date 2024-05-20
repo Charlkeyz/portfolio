@@ -1,5 +1,5 @@
 import project1_img from "/imageFolder/subsentry.png";
-import project2_img from "/imageFolder/eschool.png";
+import project2_img from "/imageFolder/e_school.png";
 import project3_img from "/imageFolder/ominifood.png";
 import project4_img from "/imageFolder/Eppework.jpg";
 import project5_img from "/imageFolder/fortman.png";
@@ -17,7 +17,7 @@ const mywork_data = [
     w_no: 2,
     w_name: "Eschool project",
     w_img: project2_img,
-    linkto: "https://e-schoolproject.vercel.app/",
+    linkto: "https://e-school-platform-eight.vercel.app/",
   },
   {
     w_no: 3,

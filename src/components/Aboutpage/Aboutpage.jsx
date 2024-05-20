@@ -4,10 +4,10 @@ import "./Aboutpage.css";
 import profile_img from "/imageFolder/profilepixel.jpeg";
 import Typewriter from "typewriter-effect";
 
-const Aboutpage = () => {
+const  Aboutpage = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="" style={{ borderRadius: "50%", width: "15%" }} />
+      <img src={profile_img} alt=""  className="profile_img" />
       <h1>I'm Ugochukwu Charles based in Nigeria</h1>
       <div className="about-text">
         I'm a
