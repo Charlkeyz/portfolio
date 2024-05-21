@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import "./MyWork.css";
 // import mywork_data from "../../../public/imageFolder/mywork_data";
