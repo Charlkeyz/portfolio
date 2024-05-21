@@ -18,7 +18,7 @@ const About = () => {
             <Typewriter
               options={{
                 strings: [
-                  " I am an experienced Frontend Developer with over a 2 years of professional expertise in the field. Throughout my career, I have  the priviledge of collaberating with prestigious organisations, contirbuting to their success and growth.  ",
+                  " I am an experienced Frontend Developer with over a 2 years of professional expertise in the field. Throughout my career, I have the priviledge of collaberating with prestigious organisations, contirbuting to their success and growth.  ",
                 ],
 
                 autoStart: true,
@@ -35,7 +35,7 @@ const About = () => {
             <p>
               My passion for frontend development is not only reflected in my
               extensive experience but also in the enthusiam and dedication I
-              bring to each project{" "}
+              bring project{" "}
             </p>
           </div>
           <div className="about-skills">
@@ -43,10 +43,10 @@ const About = () => {
               <p>HTML & CSS</p> <hr style={{ width: "100%" }} />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "60%" }} />
+              <p>JavaScript</p> <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
-              <p>React Js</p> <hr style={{ width: "60%" }} />
+              <p>React Js</p> <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
               <p>Redux Toolkit</p> <hr style={{ width: "50%" }} />

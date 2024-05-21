@@ -13,12 +13,12 @@ const  Aboutpage = () => {
         I'm a
         <Typewriter
           options={{
-            strings: ["Frontend Developer", "web Developer", "Freelancer"],
+            strings: ["Frontend Developer", "Web Developer", "Freelancer"],
             autoStart: true,
             loop: true,
           }}
         />
-        with 2 years of experience in the Bulb Africa
+        with 2 years of experience in the field
       </div>
 
       <div className="hero-action">
