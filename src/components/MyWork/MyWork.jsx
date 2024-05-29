@@ -85,7 +85,7 @@ const MyWork = ({ slides }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: 1000,
     autoplaySpeed: 5000,
     cssEase: "linear",
     responsive: [
