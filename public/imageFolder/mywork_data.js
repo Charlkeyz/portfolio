@@ -1,4 +1,4 @@
-import project1_img from "/imageFolder/subsentry.png";
+import project1_img from "/imageFolder/Screenshot (1).png";
 import project2_img from "/imageFolder/e_school.png";
 import project3_img from "/imageFolder/ominifood.png";
 import project4_img from "/imageFolder/Eppework.jpg";

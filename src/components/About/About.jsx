@@ -65,10 +65,10 @@ const About = () => {
           <p>PROJECT COMPLETED</p>
         </div>
         <hr />
-        <div className="about-achievement">
+        {/* <div className="about-achievement">
           <h1>7+</h1>
           <p>HAPPY CLIENT</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

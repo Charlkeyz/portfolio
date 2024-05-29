@@ -56,7 +56,6 @@ const Footer = () => {
         <div className="footer-bottom-right">
           <p>07060547889</p>
           <p>charleskeyz2017@gmail.com</p>
-          <p>github Address</p>
         </div>
       </div>
     </div>

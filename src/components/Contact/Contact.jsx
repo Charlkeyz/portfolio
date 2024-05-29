@@ -30,7 +30,7 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Let's talk</h1>
+          <h1 className="mt-5">Let's talk</h1>
 
           <p>
             I'm currently available to take on new projects, so feel free to

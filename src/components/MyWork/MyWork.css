@@ -29,16 +29,16 @@
   width: 200px;
   height: 280px;
 }
-.mywork-container {
+/* .mywork-container {
   display: grid;
 
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-}
+} */
 /* .mywork-container */
 
 .mywork-container img {
-  width: 350px;
+  /* width: 350px; */
   height: 280px;
   box-sizing: border-box;
   transition: 0.3s;

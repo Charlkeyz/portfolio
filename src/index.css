@@ -12,3 +12,11 @@ body {
   color: white;
   font-family: "Plus Jakarta Sans";
 }
+.slick-slide div{
+  margin: 0px 7px;
+  padding: 7px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
