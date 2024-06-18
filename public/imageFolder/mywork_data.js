@@ -5,6 +5,8 @@ import project4_img from "/imageFolder/Eppework.jpg";
 import project5_img from "/imageFolder/fortman.png";
 import project6_img from "/imageFolder/reduxphone.png";
 import project7_img from "/imageFolder/cleancity.png";
+import project8_img from "/imageFolder/Screenshot (3).png"
+import project9_img from "../../public/imageFolder/Screenshot (2).png"
 
 const mywork_data = [
   {
@@ -49,6 +51,18 @@ const mywork_data = [
     w_name: "clean-city-solutions",
     w_img: project7_img,
     linkto: "https://clean-city-solutions.vercel.app/",
+  },
+  {
+    w_no: 8,
+    w_name: "lex-john school platform",
+    w_img: project8_img,
+    linkto: "https://lex-john-school-platform.vercel.app/",
+  },
+  {
+    w_no: 9,
+    w_name: "E-Top Nigeria",
+    w_img: project9_img,
+    linkto: "https://etop-nigeria.vercel.app/",
   },
 ];
 
