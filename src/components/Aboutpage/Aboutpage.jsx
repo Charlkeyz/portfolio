@@ -18,7 +18,7 @@ const  Aboutpage = () => {
             loop: true,
           }}
         />
-        with 2 years of experience in the field
+        with years of experience in the field
       </div>
 
       <div className="hero-action">

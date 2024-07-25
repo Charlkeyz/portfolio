@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./footer.css";
 import user_icon from "/imageFolder/user_icon.svg";
 
@@ -33,7 +33,7 @@ const Footer = () => {
             <h1>Charles</h1>
           </div>
           <p>
-            I am a frontend developer from Nigeria with 2 years of experience
+            I am a frontend developer from Nigeria with 3 years of experience
           </p>
         </div>
         <div className="footer-top-right">

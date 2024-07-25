@@ -3,10 +3,11 @@ import project2_img from "/imageFolder/e_school.png";
 import project3_img from "/imageFolder/ominifood.png";
 import project4_img from "/imageFolder/Eppework.jpg";
 import project5_img from "/imageFolder/fortman.png";
-import project6_img from "/imageFolder/reduxphone.png";
+import project6_img from "/imageFolder/Screenshot (5).png";
 import project7_img from "/imageFolder/cleancity.png";
 import project8_img from "/imageFolder/Screenshot (3).png"
-import project9_img from "../../public/imageFolder/Screenshot (2).png"
+import project9_img from "/imageFolder/Screenshot (2).png"
+import project10_img from "/imageFolder/Screenshot (4).png"
 
 const mywork_data = [
   {
@@ -42,9 +43,9 @@ const mywork_data = [
 
   {
     w_no: 6,
-    w_name: "Redux Phone",
+    w_name: "Lex-Jon Super-Admin Dashboard",
     w_img: project6_img,
-    linkto: "https://reduxphoneproject.vercel.app/",
+    linkto: "https://super-admin-dashboard-zeta.vercel.app/#/",
   },
   {
     w_no: 7,
@@ -63,6 +64,12 @@ const mywork_data = [
     w_name: "E-Top Nigeria",
     w_img: project9_img,
     linkto: "https://etop-nigeria.vercel.app/",
+  },
+  {
+    w_no: 10,
+    w_name: "Lex-Jon E-school Management System",
+    w_img: project10_img,
+    linkto: "https://e-school-mangement-system.vercel.app/",
   },
 ];
 
